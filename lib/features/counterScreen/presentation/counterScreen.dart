@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_counter_one/counterScreen/provider/provider.dart';
+import 'package:riverpod_counter_one/features/counterScreen/provider/provider.dart';
 
 class CounterScreen extends ConsumerWidget {
   @override
@@ -20,7 +20,8 @@ class CounterScreen extends ConsumerWidget {
             Text(count.toString()),
             ElevatedButton(
                 onPressed: () => ref.read(counterProviderProvider.notifier).decrement(),
-                child: const Text('-'))
+                child: const Text('-')),
+            
           ],
         ),
       ),

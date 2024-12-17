@@ -6,7 +6,7 @@ part of 'provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$counterProviderHash() => r'6b9a3c85be0e423cfe0821375b8026ad78b63e2b';
+String _$counterProviderHash() => r'80ebfeaf33ff2d0983e7e856716ae19a32e0f2c0';
 
 /// See also [CounterProvider].
 @ProviderFor(CounterProvider)
